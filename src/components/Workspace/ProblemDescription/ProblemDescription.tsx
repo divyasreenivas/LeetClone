@@ -9,6 +9,7 @@ import { AiFillLike, AiFillDislike, AiOutlineLoading3Quarters, AiFillStar } from
 import { BsCheck2Circle } from "react-icons/bs";
 import { TiStarOutline } from "react-icons/ti";
 import { toast } from "react-toastify";
+import Image from "next/image"
 
 type ProblemDescriptionProps = {
 	problem: Problem;

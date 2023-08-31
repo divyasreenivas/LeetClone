@@ -1,8 +1,7 @@
-import React from 'react';
 import { auth } from "@/firebase/firebase";
+import React from "react";
 import { useSignOut } from "react-firebase-hooks/auth";
 import { FiLogOut } from "react-icons/fi";
-
 
 const Logout: React.FC = () => {
 	const [signOut, loading, error] = useSignOut(auth);
