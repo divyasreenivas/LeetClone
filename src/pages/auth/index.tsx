@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/components/Navbar/Navbar"
 import Image from "next/image"
-import AuthModel from "@/components/Models/AuthModel"
+import AuthModel from "@/components/Modals/AuthModel"
 import { authModelState } from '@/atoms/authModelAtom';
 import {useRecoilValue} from "recoil";
 import { auth, firestore } from "@/firebase/firebase";
